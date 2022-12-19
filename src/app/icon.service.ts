@@ -27,6 +27,7 @@ export class IconService {
     this.addSvgIcon('menu', this.svgIcons.MENU_ICON);
     this.addSvgIcon('more_vert', this.svgIcons.MORE_VERT_ICON);
     this.addSvgIcon('open_in_new', this.svgIcons.OPEN_IN_NEW_ICON);
+    this.addSvgIcon('close', this.svgIcons.CLOSE);
   }
 
   addSvgIcon(iconName: string, iconSvg) {

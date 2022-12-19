@@ -29,6 +29,12 @@ button {
   }
 }
 
+.mat-icon {
+  & svg {
+    margin-top: -4px; // vertically align svg icon
+  }
+}
+
 .mat-raised-button,
 .mat-stroked-button,
 .mat-button {
